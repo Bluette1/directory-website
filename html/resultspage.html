@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="../public/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/resultspage.css">
-    <link rel="stylesheet" href="../public/js/prefixfree.min.js">
+    <script rel="stylesheet" href="../public/js/prefixfree.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <title>Bedance</title>
 </head>
-<body class="container-lg container-fluid">
-    <header class="row page-header d-flex navbar justify-content-between fixed-top">
+<body class="">
+    <header class="row page-header navbar fixed-top">
         <div class="logo-left logo pl-4"><a href="./index.html">Bedance</a></div>
-        <div class="center-items d-none d-md-inline-block">
-            <ul class="d-flex justify-content-between align-items-center">
+        <nav class="center-items d-none d-md-inline-block">
+            <ul class="justify-content-between align-items-center">
                 <li> <a href="#">Network</a></li>
-                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Jobs</a></li>   
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Advertise</a></li>
                 <li ><small>connect</small></li>
@@ -25,9 +27,9 @@
                 <li><a class="twitter-icon" href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
                 <li><a class="instagram-icon" href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
             </ul> 
-        </div>
+        </nav>
         <div class="right-section">
-            <ul class="d-flex align-items-center">
+            <ul class="align-items-center">
                 <li><a href="./resultspage.html"><i class="fas fa-search"></i></a></li>
                 <li><a href="#">Register</a></li>
                 <li><a href="#">About</a></li>
@@ -35,83 +37,123 @@
             </ul>
         </div>
     </header>
-<main class="pb-5 mt-5">
-    <div class="row p-5">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search">
-            <div class="input-group-append">
-              <button class="btn btn-secondary" type="button">
-                <i class="fa fa-search"></i>
-              </button>
-            </div>
-          </div>
-        <div class="pl-5 pt-5 search-menu col-md-8 m-auto ">
-           <article>
-            <h2 class="text-right-side pt-3 text-left">NETWORK</h2>
-                <form class="pl-5 pt-2 pb-5"> 
-                    <ul class="search-area">
-                        <li class="pr-2">Find: </li>
-                        <li class="pr-2"><input type="radio" name="search-value" value="artists" checked>Artists</li>
-                        <li class="pr-2"><input type="radio" name="search-value" value="presenters">Presenters</li>
-                        <li class="pr-2"><input type="radio" name="search-value" value="managers">Managers</li> 
-                        <li class="pr-2"><input type="radio" name="search-value" value="media">Media</li>
-                    </ul>
-                    <button class="search-button-network">SEARCH</button>
-                </form>
-        </article>
-        </div>
-        <div class="col-md-10 col-12 m-md-auto search-results m-auto w-100">
-            <h4>Search Results: 6 match(es) found.</h4>
-            <div class=" row pb-3">
-                <div class="col-12 col-md-4 pb-md-0 pb-3"><a href="./detailspage.html"><img class=" m-auto" src="../public/images/thumb-abstract-ballet-pointe-shoes-illustration-vector-clipart.jpg" alt="thumb-abstract-ballet-pointe-shoes-illustration-vector-clipart"></a></div>
-                <div class="col-12 col-md-4 pb-3"><a href="./detailspage.html"><img class="m-auto" src="../public/images/thumb-ballet-black-shoes-isolated-on-white.jpg" alt="thumb-ballet-black-shoes-isolated-on-white"></a></div>
-                <div class="col-12 col-md-4 pb-3"><a href="./detailspage.html"><img class="m-auto pr-md-0 pr-3" src="../public/images/thumb-ballet-shoes-icon-over-white-background-vector-illustration-htvkapcbygjwuflmt.jpg" alt="thumb-ballet-shoes-icon-over-white-background-vector-illustration-htvkapcbygjwuflmt"></a></div> 
-            </div>
-            <div class="row pb-3">
-                <div class="col-12 col-md-4 pb-3"><a href="./detailspage.html"><img class="m-auto" src="../public/images/thumb-watercolor-pointe-shoes-ribbon-bow-hand-drawn-art-work-iso-watercolor-pointe-shoes-ribbon-bow-hand-drawn-art-work-image.jpg" alt="thumb-watercolor-pointe-shoes-ribbon-bow-hand-drawn-art-work-iso-watercolor-pointe-shoes-ribbon-bow-hand-drawn-art-work-image"></a></div>
-                <div class="col-12 col-md-4 pb-3"><a href="./detailspage.html"><img class="m-auto" src="../public/images/thumb-ballerina-black-swan-ballet-dance-vector-illustration-gm.jpg" alt="black thumb-ballerina-black-swan-ballet-dance-vector-illustration-gm"></a></div>
-                <div class="col-12 col-md-4 pb-3"><a href="./detailspage.html"><img class="m-auto pr-md-0" src="../public/images/thumb-silhouette-ballet-dancer-vector-image-classical-image.jpg" alt="thumb-silhouette-ballet-dancer-vector-image-classical-image"></a></div>
+<main class=" container-fluid container-lg pb-5 pt-5">
+    <div class="row main-search-results pt-5 position-relative col-12 d-flex justify-content-center"> 
+        <div class="input-group-sm">
+            <input type="text" class="form-control font-weight-bolder " placeholder="NAME:*">
+          </div> 
+       
+        <div class="btn-group">
+            <button type="button" class="btn font-weight-bold btn-light text-uppercase dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Role
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Administration</a>
+              <a class="dropdown-item" href="#">Presenter</a>
+              <a class="dropdown-item" href="#">Media</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Specify role</a>
             </div>
         </div>
+            <div class="btn-group">
+                <button type="button" class="btn font-weight-bold  text-uppercase btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Genre
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Classical</a>
+                  <a class="dropdown-item" href="#">Dance</a>
+                  <a class="dropdown-item" href="#">Jazz</a>
+                  <a class="dropdown-item" href="#">Piano jazz</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Specify Genre</a>
+                </div>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn font-weight-bold  btn-light dropdown-toggle text-uppercase" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Location
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">National</a>
+                  <a class="dropdown-item" href="#">Africa</a>
+                  <a class="dropdown-item" href="#">international</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Specify Location</a>
+                </div>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn font-weight-bold  text-uppercase btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Type of Group
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Band</a>
+                  <a class="dropdown-item" href="#">Choir</a>
+                  <a class="dropdown-item" href="#">Orchestra</a>
+                  <a class="dropdown-item" href="#">Solo</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Specify search</a>
+                </div>
+            </div>
     </div>
-</main>
-<footer class="jumbotron-fluid">
-    <section class="d-flex justify-content-center">
-        <h2 class="pt-1"><a href="#">Bedance</a></h2>
-         <a href="#"><i class="fab fa-adobe fa-2x p-2"></i></a>
-    </section>
-    <div class="d-flex menu-links justify-content-center">
+    <div class="col-12 search-results-display m-auto w-100">
+        <h4 class="text-center pt-5">Search Results: 6 match(es) found.</h4>
+        <div class="row">
+            <div class="col-12 col-md-4 border"><a href="./detailspage.html"><img class="m-auto" src="../public/images/thumb-photostock-vector-ballet-dancer-girl-black-and-white-ballerina-outline-and-vector-silhouette.jpg" alt=""></a></div>
+            <div class="col-12 col-md-4 border"><a href="./detailspage.html"><img class="m-auto" src="../public/images/thumb-ballerina-black-swan-ballet-dance-vector-illustration-gm.jpg" alt="black thumb-ballerina-black-swan-ballet-dance-vector-illustration-gm"></a></div>
+            <div class="col-12 col-md-4 border"><a href="./detailspage.html"><img class="m-auto" src="../public/images/thumb-silhouette-ballet-dancer-vector-image-classical-image.jpg" alt="thumb-silhouette-ballet-dancer-vector-image-classical-image"></a></div>
+        </div>
+        <div class=" row">
+            <div class="col-12 col-md-4 border"><a href="./detailspage.html"><img class=" m-auto" src="../public/images/thumb-photoabstract-vector-illustration-of-dancing-ballerina.jpg" alt="thumb-abstract-ballet-pointe-shoes-illustration-vector-clipart"></a></div>
+            <div class="col-12 col-md-4 border"><a href="./detailspage.html"><img class="m-auto" src="../public/images/thumb-stock-illustration-ballerina-dancer-vector-girl.jpg" alt="thumb-ballet-black-shoes-isolated-on-white"></a></div>
+            <div class="col-12 col-md-4 border"><a href="./detailspage.html"><img class="m-auto" src="../public/images/thumb-woman-ballet-dancer-silhouette-vector.jpg" alt="thumb-woman-ballet-dancer-silhouette-vector"></a></div> 
+        </div>
+    </div> 
+</main> 
+<footer class="jumbotron-fluid pl-n5 pr-n5 pt-5">
+    <div class="menu-links justify-content-center">
         <ul>
             <li class="pr-4"><a href="#">Get involved</a></li>
             <li class="pr-4"><a href="#">Donate</a></li>
             <li class="pr-4"><a href="#">Learn More</a></li>
             <li class="pr-4"><a href="#">Powered by TopWeaver</a></li>
+            <li class="pr-4"><a href="#"><i class="fas fa-map-marker-alt fa-3x"></i></a></li>
             <li class="pr-4"><a href="#">Career Guidance</a></li>
             <li class="pr-4"><a href="#">Contact Info</a></li>
             <li class="pr-4"><a href="#">Subscribe</a></li>
+            <li class="pr-4"><a href="#">Blog</a></li>
         </ul>
     </div>
-    <div class="social-links d-inline-block d-md-flex justify-content-center align-items-center">
-        <ul class="d-flex">
-            <li class="p-2"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-            <li class="p-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li class="p-2"><a href="#"><i class="fab fa-youtube"></i></a></li>
-            <li class="p-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li class="p-2"><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-            <li class="p-2"><a href="#"><i class="fas fa-rss-square"></i></a></li>
-            <li class="p-2"><a href="#"><i class="far fa-envelope"></i></a></li>
-        </ul>
+    <div class="row subscribe-contact p-5">
+      <div class="col-md-4">
+          <form class="input-group" action="./resultspage.html">
+            <h6 class="col-12 ml-n3">SUBSCRIBE:</h6>
+                <input type="text" class="form-control" placeholder="youremail@example.com">
+            <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit">
+                    Send
+                </button>
+            </div>
+        </form>
+      </div>
+      <div class="col-md-4">
+          <h6 class="text-center">CONTACT</h6>
+          <p class="text-center">Have a question?</p>
+          <p class="text-center"><a href="#">support@bedance.com</a></p>
+      </div>
+      <div class="col-md-4">
+        <h6 class="text-center">ABOUT</h6>
+        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="text-center"><a href="#">Learn more...</a></p>
+      </div>
     </div>
     <hr class="my-5">
     <div class="bottom-links">
         <div class="left-menu">
             <ul>
-                <li class="pr-1"><a href="#">Site map</a></li>
-                <li class="pl-1 pr-1"><a href="#"> About Us</a></li>
-                <li class="pl-1 pr-1"><a href="#"> Privacy Policy</a></li>
-                <li class="pl-1 pr-1"><a href="#"> Advertise </a></li>
-                <li class="pl-1 pr-1"><a href="#"> Terms of Sale </a></li>
-                <li class="pl-1 pr-1"><a href="#"> Terms of Service</a></li>
+                <li class="p-2"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="p-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="p-2"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li class="p-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="p-2"><a href="#"><i class="fas fa-rss-square"></i></a></li>
             </ul>
         </div>
         <div class="right-menu">

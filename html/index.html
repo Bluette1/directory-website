@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="../public/js/prefixfree.min.js">
     <title>Bedance</title>
 </head>
-<body class="container-lg container-fluid">
-    <header class="row page-header d-flex navbar justify-content-between fixed-top">
+<body>
+    <header class="row page-header navbar fixed-top">
         <div class="logo-left logo pl-4"><a href="#">Bedance</a></div>
-        <div class="center-items d-none d-md-inline-block">
-            <ul class="d-flex justify-content-between align-items-center">
+        <nav class="center-items d-none d-md-inline-block">
+            <ul class="justify-content-between align-items-center">
                 <li> <a href="#">Network</a></li>
-                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Jobs</a></li>   
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Advertise</a></li>
                 <li ><small>connect</small></li>
@@ -24,9 +24,9 @@
                 <li><a class="twitter-icon" href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
                 <li><a class="instagram-icon" href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
             </ul> 
-        </div>
+        </nav>
         <div class="right-section">
-            <ul class="d-flex align-items-center">
+            <ul class="align-items-center">
                 <li><a href="./resultspage.html"><i class="fas fa-search"></i></a></li>
                 <li><a href="#">Register</a></li>
                 <li><a href="#">About</a></li>
@@ -35,49 +35,25 @@
         </div>
     </header>
 <main>
-    <div class="row mt-5">
-            <article class="col-lg-2">
-                <h2 class="text-left-side p-5 ml-n4">BEDANCE</h2>
-                <h2 class="text-left-side pl-5 mt-n5">Discover and take a stance...</h2>
-            </article>
-            <div class="col-lg-6">
-                <div class="text-area text-justify pt-5 mt-5">
-                    <i class="brand">Bedance</i> can be described as an online map of the performing arts, and a bridge, facilitating lasting and important relationships between leading performing arts professionals. 
-                    This directory of the performing arts is a hub for finding the best of talent and discovering where your potential lies.
+    <section class="main-central row">
+
+        <h1 class="main-heading col-12 col-md-10 pl-5 pl-md-0">Bedance... Discover the best in the world of performing arts</h1>
+        <h1 class="sub-heading col-12 col-md-10 pl-5 pl-md-0">Find Artists, Managers, Presenters...</h1>
+        <article class="row search-bar-area col-12 col-md-8 pb-5 pl-sm-4">
+            <form class="input-group" action="./resultspage.html">
+                <h4 class="col-12">Search by key word:</h4>
+                    <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-secondary" type="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
                 </div>
-                <div class="image-center pt-5">
-                    <img src="../public/images/thumb-silhouette-ballet-dancer-princess-print-girl-isolated-cute-silhouette-ballerina-girl-pointe-shoes-vector-image.jpg" alt="">
-                </div>
-            </div>
-            <article class="col-lg-2 col-sm-5 col-6 m-auto pb-5">
-                <h2 class="text-right-side pt-5 text-left">NETWORK</h2>
-                    <form action="./resultspage.html" class="search-area pl-3 w-100  pt-lg-2 pb-5">   
-                        <div class="row">Find:</div>
-                        <div class="row pt-3"><input type="radio" name="search-value" value="artists" checked>Artists</div>
-                        <div class="row pt-3"><input type="radio" name="search-value" value="presenters">Presenters</div>
-                        <div class="row pt-3"><input type="radio" name="search-value" value="Managers">Managers</div>
-                        <div class="row pt-3"><input type="radio" name="search-value" value="media">Media</div>
-                        <div class="row mt-5 search-button-network"><button type="submit">SEARCH</button></div>
-                    </form>
-            </article>
-            <nav class="col-lg-2 d-lg-block right-items navbar fixed-top h-100 pt-0 d-flex flex-column align-content-end">
-                <ul class="pl-0 pr-0 d-flex justify-content-between align-items-center flex-column">
-                    <li><a href="#"><i class="fas fa-tools"></i></a></li>
-                    <li>tools</li>
-                    <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
-                    <li>follow</li>
-                    <li><a href="#"><i class="far fa-folder-open"></i></a></li>
-                    <li>save</li>
-                    <li><a href="#"><i class="fas fa-thumbs-up"></i></a></li>
-                    <li>like</li>
-                </ul> 
-            </nav>
-        </div>
-        <div>
-            <div class="row mb-5">
-                <div class="col-lg-3"></div>
+            </form>
+        </article>   
+    </section>
+            <div class="row mb-5 p-5">
                 <div class="col-12 search-simple-steps">
-                    <div class="row"><h1 class="title-steps text-center pb-5">BEDANCE WORKS IN FOUR SIMPLE STEPS</h1></div>
+                    <div class="row pl-2"><h1 class="title-steps text-center pb-5">BEDANCE WORKS IN FOUR SIMPLE STEPS</h1></div>
                     <div class="row">
                         <section class="col-sm-6">
                             <i class="fas fa-search-plus fa-3x"></i>
@@ -115,80 +91,90 @@
                         </section>
                     </div>
                 </div>
-                <div class="col-lg-3"></div>
             </div>
-        </div>
-        <div class="jumbotron-fluid jumbotron-pioneers p-5 jumbotron-info w-md-75 w-lg-50 m-auto mb-n5">
-            <article class="left-jumbotron">
-                <h1 class="display-4 logo-jumbotron float-md-left mt-n4 clearfix">Bedance</h1>
-                <section class="float-md-right clearfix">
-                <h4 class="display-4 float-md-right pioneer-jumbotron mt-md-n4">Junyper Shole</h4>
-                <p>co-founder</p>
-                </section>
-            </article>
-            <hr class="my-5">
-            <p>Phone: +2755450991</p>
-            <p>Email: get-info@bedance.com</p>
-            <p>Website: www.bedance.com</p>
-            <p class="lead text-center mt-5">
-              <a class="btn btn-primary btn-lg jumbotron-button pt-2" href="#" role="button">Get in touch</a>
-            </p>
-          </div>
-          <div class="appreciate-section mt-5 mb-5 w-md-75 container-fluid">
-              <div class="row d-flex align-items-center flex-column justify-content-center">
-                <article class="d-flex flex-column pt-3 justify-content-center">
-                    <i class="fas fa-thumbs-up fa-3x pb-3 position-relative"></i>
-                    <h2 class="logo pb-3">Bedance</h2>
-                    <div class="menu-icons pb-3">
-                        <i class="fas fa-thumbs-up fa-lg"> 8 </i>
-                        <i class="fas fa-eye fa-lg"> 105 </i>
-                        <i class="far fa-comment fa-lg"> 0</i>
-                    </div>
-                    <p>Updated: 6 April 2019</p>
-                </article>
-              </div>
-              <div class="row">
-                  <img src="../public/images/noun_Ballet_Dancer_30312.svg" alt="noun_Ballet">
-              </div>
-          </div>
 </main>
-<footer class="jumbotron-fluid">
-    <section class="d-flex justify-content-center">
-        <h2 class="pt-1"><a href="#">Bedance</a></h2>
-         <a href="#"><i class="fab fa-adobe fa-2x p-2"></i></a>
-    </section>
-    <div class="d-flex menu-links justify-content-center">
+<div class="row first-after-main pb-5 pt-5">
+    <article class="col-md-6 find-schools">
+        <h5>Over 10,000 artists and organisations registered with us</h5>
+        <h6>Find a schoool by using our filtered search engine</h6>
+        <button type="button">Find a school</button>
+    </article>
+    <div class="col-md-6">
+        <div class="image-wrapper">
+            <img src="../public/images/location.png" alt="location-img">
+        </div>
+    </div>
+</div>
+<div class="row second-after-main pb-5 pt-5">
+    <article class="col-md-6 convenience">
+        <h5> No need to spend an hour in transit to find a school in the country</h5>
+        <h6>Just press or click on the search button and You're all set</h6>
+        <button type="button">Find a school near you</button>
+    </article>
+    <div class="col-md-6">
+        <div class="image-wrapper">
+            <img src="../public/images/travel.jpeg" alt="location-img">
+        </div>
+    </div>
+</div>
+
+<div class="row third-after-main pb-5 pt-5">
+    <article class="col-md-6 just-click">
+        <h5> No need to spend an hour in transit to find a school in the country</h5>
+        <h6> Just press or click on the search button and You're all set </h6>
+    </article>
+    <div class="col-md-6">
+        <div class="image-wrapper">
+            <img src="../public/images/andrew-mantarro-KWZtA2JHW0-unsplash.jpg" alt="location-img">
+        </div>
+    </div>
+</div>
+<footer class="jumbotron-fluid ">
+    <div class="menu-links justify-content-center">
         <ul>
             <li class="pr-4"><a href="#">Get involved</a></li>
             <li class="pr-4"><a href="#">Donate</a></li>
             <li class="pr-4"><a href="#">Learn More</a></li>
             <li class="pr-4"><a href="#">Powered by TopWeaver</a></li>
+            <li class="pr-4"><a href="#"><i class="fas fa-map-marker-alt fa-3x"></i></a></li>
             <li class="pr-4"><a href="#">Career Guidance</a></li>
             <li class="pr-4"><a href="#">Contact Info</a></li>
             <li class="pr-4"><a href="#">Subscribe</a></li>
+            <li class="pr-4"><a href="#">Blog</a></li>
         </ul>
     </div>
-    <div class="social-links">
-        <ul>
-            <li class="p-2"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-            <li class="p-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li class="p-2"><a href="#"><i class="fab fa-youtube"></i></a></li>
-            <li class="p-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li class="p-2"><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-            <li class="p-2"><a href="#"><i class="fas fa-rss-square"></i></a></li>
-            <li class="p-2"><a href="#"><i class="far fa-envelope"></i></a></li>
-        </ul>
+    <div class="row subscribe-contact p-5">
+      <div class="col-md-4">
+          <form class="input-group" action="./resultspage.html">
+            <h6 class="col-12 ml-n3">SUBSCRIBE:</h6>
+                <input type="text" class="form-control" placeholder="youremail@example.com">
+            <div class="input-group-append">
+                <button class="btn btn-secondary" type="submit">
+                    Send
+                </button>
+            </div>
+        </form>
+      </div>
+      <div class="col-md-4">
+          <h6 class="text-center">CONTACT</h6>
+          <p class="text-center">Have a question?</p>
+          <p class="text-center"><a href="#">support@bedance.com</a></p>
+      </div>
+      <div class="col-md-4">
+        <h6 class="text-center">ABOUT</h6>
+        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="text-center"><a href="#">Learn more...</a></p>
+      </div>
     </div>
     <hr class="my-5">
     <div class="bottom-links">
         <div class="left-menu">
             <ul>
-                <li class="pr-1"><a href="#">Site map</a></li>
-                <li class="pl-1 pr-1"><a href="#"> About Us</a></li>
-                <li class="pl-1 pr-1"><a href="#"> Privacy Policy</a></li>
-                <li class="pl-1 pr-1"><a href="#"> Advertise </a></li>
-                <li class="pl-1 pr-1"><a href="#"> Terms of Sale </a></li>
-                <li class="pl-1 pr-1"><a href="#"> Terms of Service</a></li>
+                <li class="p-2"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                <li class="p-2"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="p-2"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li class="p-2"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="p-2"><a href="#"><i class="fas fa-rss-square"></i></a></li>
             </ul>
         </div>
         <div class="right-menu">
