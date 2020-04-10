@@ -235,9 +235,9 @@ h1.title-steps,
 .center-items ul,
 .menu-links,
 .menu-links ul,
-.right-menu ul,
 .social-links ul,
 .right-section ul,
+.bottom-links .right-menu ul,
 .bottom-links .left-menu ul,
 .bottom-links,
 .social-links {
@@ -250,6 +250,7 @@ h1.title-steps,
 
 .bottom-links {
   justify-content: space-between;
+  width: 100%;
 }
 
 @media screen and  (max-width: 768px) {
