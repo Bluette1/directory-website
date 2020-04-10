@@ -22,7 +22,6 @@ body {
   margin: 0 auto;
   height: 100%;
   width: 100%;
-  max-width: 1440px;
   font-size: 16px;
   line-height: 20px;
   color: #333;
@@ -52,10 +51,9 @@ img {
 
 .page-header {
   background-color: rgba(209, 6, 54, 0.98);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-main .main-central {
+.main-central {
   margin-top: 65px;
   left: 0;
   right: 0;
@@ -92,9 +90,9 @@ main .main-central {
   background-color: #347debe6;
 }
 
-article.find-schools,
-article.convenience,
-article.just-click {
+.find-schools,
+.convenience,
+.just-click {
   color: #fff;
   margin: auto;
   padding: 3rem;
@@ -132,7 +130,7 @@ article.just-click {
   top: -250px;
 }
 
-.page-header .logo-left.logo {
+.logo {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 37px;
@@ -140,8 +138,8 @@ article.just-click {
   padding-top: 15px;
 }
 
-.page-header .center-items,
-.page-header .right-section {
+.center-items,
+.right-section {
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
 }
@@ -150,8 +148,8 @@ article.just-click {
   padding-top: 12px;
 }
 
-.page-header .center-items ul li,
-.page-header .right-section ul li {
+.center-items ul li,
+.right-section ul li {
   padding-right: 5px;
   padding-top: 12px;
   cursor: pointer;
@@ -180,14 +178,9 @@ footer a:hover {
   color: rgb(207, 191, 207);
 }
 
-footer .social-links a:hover {
+.social-links a:hover {
   background-color: rgb(207, 191, 207);
   border-color: rgb(207, 191, 207);
-}
-
-.page-header.right-section ul li a,
-.page-header .logo-left .logo {
-  cursor: pointer;
 }
 
 .filter-white {
@@ -196,9 +189,7 @@ footer .social-links a:hover {
 
 footer,
 h1.text-left-side,
-.text-area .brand,
-h1.text-right-side,
-h1.title-steps,
+.title-steps,
 .simple-steps {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -254,7 +245,7 @@ h1.title-steps,
 }
 
 @media screen and  (max-width: 768px) {
-  .page-header .logo-left.logo {
+  .logo {
     font-size: 15px;
     padding: unset;
   }
@@ -283,5 +274,11 @@ h1.title-steps,
 
   .sub-heading {
     display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 1440px;
   }
 }

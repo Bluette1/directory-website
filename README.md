@@ -34,7 +34,12 @@ This project is mainly about designing a responsive website similar to a real-li
 # Acknowledgements
 - The design was created by <a href="https://www.behance.net/mathewnjuguna">Mather Njuguna</a> and  <a href="https://www.behance.net/aweSam"> Sam Achola </a>on behance.
 - You can view the design template used <a href="https://www.behance.net/gallery/25563385/PatashuleKE">on behance</a>.
-- The images used were retrieved from [CreateMePink](http://www.createmepink.com/).
+- The images used were retrieved from
+  -  [CreateMePink](http://www.createmepink.com/)
+  - [CreativeMarket](https://creativemarket.com/Veryredfish/333527-Travel-icon-set)
+  - [WebHelp](http://webhelp.esri.com/)
+  - [UnSplash](https://unsplash.com/s/photos/phone-screen)
+  - [WikiMedia](https://commons.wikimedia.org/)
 
 ## 🤝 Contributing
 

@@ -2,7 +2,7 @@
   text-transform: uppercase;
 }
 
-main .main-search-results {
+.main-search-results {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
