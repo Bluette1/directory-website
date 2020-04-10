@@ -21,7 +21,7 @@ This project is mainly about designing a responsive website similar to a real-li
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/Bluette1/directory-website/e76d8fba39a09b72f68fe14ee10bc63a1e592224/html/index.html)
+[Live Demo](https://rawcdn.githack.com/Bluette1/directory-website/76c06bb43b52b9de9726280da12f55d4041c30e5/html/index.html)
 
 ## Authors
 
