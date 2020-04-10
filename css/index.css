@@ -225,8 +225,11 @@ h1.title-steps,
 
 .page-header,
 .page-header ul {
+  display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 .center-items ul,
@@ -234,11 +237,9 @@ h1.title-steps,
 .menu-links ul,
 .right-menu ul,
 .social-links ul,
-.page-header ul,
 .right-section ul,
 .bottom-links .left-menu ul,
 .bottom-links,
-.page-header,
 .social-links {
   display: flex;
   flex-wrap: wrap;
