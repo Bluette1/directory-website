@@ -25,3 +25,7 @@
   border-color: rgba(209, 6, 54, 0.98);
   box-shadow: none;
 }
+
+.fas.fa-info-circle.fa-2x {
+  vertical-align: middle;
+}
