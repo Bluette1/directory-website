@@ -1,4 +1,4 @@
-/* Set the defaults */
+
 html {
   box-sizing: border-box;
 }
@@ -18,13 +18,16 @@ html {
 }
 
 body {
+  padding: 0;
   margin: 0 auto;
   height: 100%;
   width: 100%;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   color: #333;
   overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 a {
@@ -44,4 +47,239 @@ img {
   max-height: 100%;
   cursor: pointer;
   width: 100%;
+}
+
+.page-header {
+  background-color: rgba(209, 6, 54, 0.98);
+}
+
+.main-central {
+  margin-top: 65px;
+  left: 0;
+  right: 0;
+  height: 100%;
+  min-height: 695px;
+  width: 100%;
+  background: url(../public/images/silhouettes-of-ballet-dancers-vector-clipart-1.jpg) 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-heading,
+.sub-heading {
+  position: relative;
+  text-transform: uppercase;
+  padding-top: 70px;
+  margin-left: auto;
+  font-size: 25px;
+}
+
+.sub-heading {
+  font-size: 20px;
+}
+
+.first-after-main {
+  background-color: rgba(209, 6, 54, 0.68);
+}
+
+.second-after-main {
+  background-color: rgb(221, 214, 214);
+}
+
+.third-after-main {
+  background-color: #347debe6;
+}
+
+.find-schools,
+.convenience,
+.just-click {
+  color: #fff;
+  margin: auto;
+  padding: 3rem;
+}
+
+.convenience button {
+  color: rgb(221, 214, 214);
+}
+
+.find-schools button,
+.convenience button {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: rgba(209, 6, 54, 0.68);
+}
+
+.image-wrapper {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.third-after-main .image-wrapper {
+  border-radius: unset;
+}
+
+.search-bar-area {
+  text-transform: uppercase;
+  margin: auto;
+  background-color: rgb(236, 231, 231);
+  padding-top: 50px;
+  top: -250px;
+  border-radius: 20px;
+}
+
+.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 37px;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.center-items,
+.right-section {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.right-items ul li {
+  padding-top: 12px;
+}
+
+.center-items ul li,
+.right-section ul li {
+  padding-right: 5px;
+  padding-top: 12px;
+  cursor: pointer;
+}
+
+.social-links a {
+  border: 1px solid #4b4a4a;
+  border-radius: 3.125em;
+  text-decoration: none;
+  background-color: #4b4a4a;
+  font-size: 1em;
+  list-style: none;
+  color: #fff;
+  padding: 0.625em;
+}
+
+footer {
+  background-color: rgb(141, 139, 139);
+  color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer a:hover {
+  color: rgb(207, 191, 207);
+}
+
+.social-links a:hover {
+  background-color: rgb(207, 191, 207);
+  border-color: rgb(207, 191, 207);
+}
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(104deg) brightness(103%) contrast(103%);
+}
+
+footer,
+h1.text-left-side,
+.title-steps,
+.simple-steps {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.simple-steps h2 {
+  text-transform: uppercase;
+}
+
+.text-area {
+  margin-top: 540px;
+  font-size: 1rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.search-simple-steps h2 {
+  text-transform: uppercase;
+}
+
+.menu-links ul {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.page-header,
+.page-header ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.center-items ul,
+.menu-links,
+.menu-links ul,
+.social-links ul,
+.right-section ul,
+.bottom-links .right-menu ul,
+.bottom-links .left-menu ul,
+.bottom-links,
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-links {
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and  (max-width: 768px) {
+  .logo {
+    font-size: 15px;
+    padding: unset;
+  }
+
+  .left-menu {
+    margin: 0 auto;
+  }
+
+  .search-bar-area {
+    padding-left: 2em;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  form h4 {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-heading {
+    display: none;
+  }
+
+  .sub-heading {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 1440px;
+  }
 }

@@ -1,0 +1,16 @@
+.button-group button {
+  text-transform: uppercase;
+}
+
+.main-search-results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-results-display {
+  background-color: #e6bbc7;
+  border: solid;
+}
