@@ -59,6 +59,7 @@ img {
   right: 0;
   height: 100%;
   min-height: 695px;
+  min-width: 320px;
   width: 100%;
   background: url(../public/images/silhouettes-of-ballet-dancers-vector-clipart-1.jpg) 50% 50%;
   background-repeat: no-repeat;
@@ -72,10 +73,14 @@ img {
   padding-top: 70px;
   margin-left: auto;
   font-size: 25px;
+  width: 60%;
 }
 
 .sub-heading {
   font-size: 20px;
+  display: none;
+  margin: auto;
+  padding-bottom: 45%;
 }
 
 .first-after-main {
@@ -129,6 +134,7 @@ img {
   padding-top: 50px;
   top: -250px;
   border-radius: 20px;
+  width: 60%;
 }
 
 .logo {
@@ -244,27 +250,13 @@ h1.text-left-side,
   justify-content: space-between;
   width: 100%;
 }
+.main-central form {
+  width: 90%;
+}
 
-@media screen and  (max-width: 768px) {
-  .logo {
-    font-size: 15px;
-    padding: unset;
-  }
-
-  .left-menu {
-    margin: 0 auto;
-  }
-
-  .search-bar-area {
-    padding-left: 2em;
-    margin: auto;
-    text-align: center;
-    width: 100%;
-  }
-
-  form h4 {
-    margin: auto;
-    text-align: center;
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 1440px;
   }
 }
 
@@ -278,8 +270,25 @@ h1.text-left-side,
   }
 }
 
-@media screen and (min-width: 1024px) {
-  body {
-    max-width: 1440px;
+@media screen and  (max-width: 768px) {
+  .logo {
+    font-size: 15px;
+    padding: unset;
+  }
+
+  .left-menu {
+    margin: 0 auto;
+  }
+
+  .search-bar-area {
+    margin: auto;
+    width: 90%;
+  }
+
+.sub-heading {
+  width: 90%;
+}
+  form h4 {
+    font-size: 12px;
   }
 }
