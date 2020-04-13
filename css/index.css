@@ -250,6 +250,7 @@ h1.text-left-side,
   justify-content: space-between;
   width: 100%;
 }
+
 .main-central form {
   width: 90%;
 }
@@ -285,9 +286,10 @@ h1.text-left-side,
     width: 90%;
   }
 
-.sub-heading {
-  width: 90%;
-}
+  .sub-heading {
+    width: 90%;
+  }
+
   form h4 {
     font-size: 12px;
   }
